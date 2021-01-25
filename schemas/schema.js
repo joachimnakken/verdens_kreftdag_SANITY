@@ -11,6 +11,7 @@ import speaker from "./speaker";
 import agenda from "./agenda/agenda";
 import videoCard from "./videoCard";
 import footerLinks from "./footerLinks";
+import heroVideo from "./heroVideo";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,6 +21,7 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     // Documents
+    heroVideo,
     speaker,
     videoBlocks,
     agenda,

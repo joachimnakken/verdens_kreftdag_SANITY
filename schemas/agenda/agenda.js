@@ -28,12 +28,11 @@ export default {
               preview: "title",
               title: "Hva skjer?",
               name: "title",
-              type: "string",
+              type: "blockContent",
             },
 
             {
               title: "Tidspunkt",
-              description: "format 09:45 - 10:00",
               name: "time",
               type: "string",
             },
